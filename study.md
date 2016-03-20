@@ -21,6 +21,7 @@ Ember](https://www.codeschool.com/courses/try-ember) course from CodeSchool.
 
 In your own words, describe why someone would use Ember.
 
-```md
-<!-- your answer here -->
-```
+You would use Ember.js framework to build a fast-loading interactive single-page web app. The framework is fairly easy to get started in and a lot of the Model-View-Controller files and handlebars templates are generated for you via command line scripts much like Rails. Because the Ember.js apps loads the full website in the initial network request, only the data is served between user and server after. Else other requests after that are between the client browser and the user. In other words, server serves the data and client serves the user. There is fewer network requests and there is no shared state between client and the server, which makes the web fully dynamic and runs faster.
+
+-   [Ember Codeschool slides](http://courseware.codeschool.com/try_ember/CodeSchool-TryEmber.pdf)
+-   [Ember js Youtube](https://www.youtube.com/watch?v=KH5RreHtaaQ)
