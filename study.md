@@ -22,5 +22,16 @@ Ember](https://www.codeschool.com/courses/try-ember) course from CodeSchool.
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember is a JavaScript MVC framework with a very established and detailed
+documentation. Ember works similarily to rails in that it makes small
+choices in the background for you to make programming more seamless. Ember
+can detect made changes and will refresh the application automatically. Ember
+has handy built in methods including string manipulation using the methods w
+and fmt. More built in methods include map, reduced, and filter in order
+to effectively deal with arrays. The method mapProperty allows you to pass in
+a key of an object and return all values associated to that key. Ember allows
+data-binding by using the simple method set. Ember has excellect class
+modeling features which make more much more readable code. There are many
+reasons why one would choose to use Ember being all the available built-in
+methods and the ease of use, making code more semantic and readable.
 ```
