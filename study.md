@@ -31,7 +31,12 @@ and fmt. More built in methods include map, reduced, and filter in order
 to effectively deal with arrays. The method mapProperty allows you to pass in
 a key of an object and return all values associated to that key. Ember allows
 data-binding by using the simple method set. Ember has excellect class
-modeling features which make more much more readable code. There are many
+modeling features which makes for much more readable code. Ember has many useful
+features including it's router and it's object system. The router provides
+URLs and a back button by default with every created route. Ember's object
+system take's the best parts of ruby object's and builds right on top of them.
+This allows Ember to use mixins. Ember also supports Computed properties
+which works as a more powerful Microsoft Excel. There are many
 reasons why one would choose to use Ember being all the available built-in
-methods and the ease of use, making code more semantic and readable.
+features and the ease of use.
 ```
