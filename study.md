@@ -22,5 +22,15 @@ Ember](https://www.codeschool.com/courses/try-ember) course from CodeSchool.
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+One would use a frontend javascript framework - like Ember - in order to provide a more
+responsive user experience, specifically by allowing for the creation of single-page
+applications. One would use Ember in particular because of its ability to provide
+the 'complete package' of features and follows 'convention over configuration',
+allowing a project to get up, running, and completed quickly. Another perk,
+especially for someone with Ruby on Rails experience, is how it mimics Rails
+due to its founder's connection with Rails' development. I gather that it takes
+awhile to learn everything, but once you do it's a powerful tool for getting a job done well.
+
+I used wikipedia, a site called [Lullabot] (https://www.lullabot.com/articles/choosing-the-right-javascript-framework-for-the-job),
+[AirPair](https://www.airpair.com/js/javascript-framework-comparison), and the two readings as my sources.
 ```
