@@ -19,8 +19,13 @@ Ember](https://www.codeschool.com/courses/try-ember) course from CodeSchool.
 
 ## Why use Ember
 
-In your own words, describe why someone would use Ember.
-
 ```md
-<!-- your answer here -->
+So far it seems that ember is pretty close to express and it's generator, but
+unlike express using jade, ember seems to be using handlebars as a template engine. Ember also is designed
+to have multiple views on one page. Like twitter's site. Ember does have an rails feel to it becuse of the interesting helpers it has in place.
+It also gives you the ablility to have a few templates of what you want to be rendered on the page.
+The route functionality of ember is very valueable for client applicaitons. They allow for things to be bookedmarked,
+and help stop JQuery spaghetti from occuring. They also alow for orgianizing your app.
+Ember also has built in generators like rails. Its very quick to get things up and running.
+
 ```
