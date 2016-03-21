@@ -22,5 +22,10 @@ Ember](https://www.codeschool.com/courses/try-ember) course from CodeSchool.
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would use Ember because it is a super powerful framework for building awesome apps.
+Stuff that you didn't know you needed is already put into place by Ember. Using Ember CLI you can easily add new parts
+to your app and Ember takes care of all the leg work for you. No matter how big your app gets, Embers system makes it easy to
+manage and housekeep your codebase and make meaningful edits as easily as when you first implemented a feature.
+
+
 ```
