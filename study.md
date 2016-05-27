@@ -35,7 +35,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is the content that is visible to the user at any given time over the course of their interaction with a web app.  Front-end frameworks such as Ember manipulate this state with routers and url's to update the DOM and create different browser renderings for the user.
+
+(source: https://guides.emberjs.com/v1.10.0/understanding-ember/the-view-layer/)
 ```
 
 ### Ember Concepts
@@ -44,7 +46,19 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Parts of an Ember 2 application-
+Routes- url's that update the view state
+Models- data associated with the view state
+Templates- builds HTML using HTMLBars (variant of handlebars)
+Components- don't fully understand these yet
+Services- objects that contain long-term data
+
+Changes between Ember 1 and 2-
+Default one-way data flow
+'Just refresh it' for a change
+Introduction of Glimmer to improve rendering performance
+
+(source: https://en.wikipedia.org/wiki/Ember.js)
 ```
 
 ### Ember in Practice
@@ -52,7 +66,9 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+It seems like one of the main benefits of Ember is ease of use and speed of setup which allow for developers to be more productive overall.  Also chipotle uses it so it must be good.
+
+(source: https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/)
 ```
 
 ### Ember and URLs
@@ -60,5 +76,8 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+JavaScript web apps go against the grain of the early days on the web in the sense that entire applications are consolidated under one url.  Ember reverses that trend by adding url's with every route created, giving the app greater functionality in that it can still be a SPA but have distinct url's that can be bookmarked and shared.
+
+(soure:
+Jason's router session and https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/)
 ```
