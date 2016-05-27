@@ -35,7 +35,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is the current view that is displayed based on the state of the application. An example would be:
+State: User failed log-in
+View: Incorrect Password or username -- modal or screen
 ```
 
 ### Ember Concepts
@@ -44,7 +46,11 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+The essential parts of an Ember 2 application are Routes, Models, Templates (HTMLBars/Handlebars), and Components. There are also a host of services available for use at the developer's discretion.
+
+Ember 2 differs from Ember 1.xx in that it has a default one-way data flow. It also employs a "just refresh it" philosophy. Apparently, there is also a lifecycle hook for components, but I don't know what this means.
+
+Ember 1.13 is similar to Ember 2, but Ember 2 has removed the deprecated methods.
 ```
 
 ### Ember in Practice
@@ -52,7 +58,7 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would build Ember when they are conciously choosing to rapidly develop a SPA that has finite states. Ember provides a framework, thus reducing the overhead to creating a new application.
 ```
 
 ### Ember and URLs
@@ -60,5 +66,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember creates URLs which, according to Tom Dale, essesentially differentiate between a true web application and using the web as a content distribution network.
 ```
