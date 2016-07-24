@@ -35,7 +35,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is a certain rendering of the application that looks different from when the app is in a different state. They relate to front-end frameworks because front-end frameworks provide a way to dynamically set different view-states ahead of time at different urls and trigger changes between them while changing the url but also not refreshing the page.
 ```
 
 ### Ember Concepts
@@ -44,7 +44,11 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Essential parts of an Ember 2 application are: templates, which are the html that is displayed when a user visits a certain url, a route handler to get models which those templates are attached to, a router, to connect a url to one of those routes, components (which are more general templates that can be used repeatedly in different more specific templates),
+
+So...components make up a template. A template is fetched by a route handler, and the router directs the route handler. (https://guides.emberjs.com/v2.4.0/)
+
+Changes that have happened between Ember 1 and Ember 2 are that data now by default only flows down (one way) instead of two, and standard lifecycle hooks for components were added. It also introduced the use of the Glimmer rendering engine. (https://en.wikipedia.org/wiki/Ember.js)
 ```
 
 ### Ember in Practice
@@ -52,7 +56,10 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would use Ember in order to be able to dynamically change states without refreshing the page via a front end router that allows them to still use different urls for different states.
+
+It also is good for keeping code dry and avoiding "jquery spaghetti" (I know we're supposed to put things in our own words, but I just loved that phrase too much because I TOTALLY feel it describes the mess of repetitive junk I wrote to change states in my initial projects).
+(https://www.youtube.com/watch?v=BQ6at0addi4)
 ```
 
 ### Ember and URLs
@@ -60,5 +67,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember stops breaking the web because it uses different urls to access different view states instead of only one url with shifting view states all of the time.
+(https://www.youtube.com/watch?v=BQ6at0addi4)
 ```
