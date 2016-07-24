@@ -67,6 +67,7 @@ Ember puts more responsibility on the client (validation, processing, redering),
 Ember offers a solution for the whole MVC framework and doesnt only focus on the view state.
 
 Ember is flexible and will be changes according to future needs.
+
 ```
 
 ### Ember and URLs
@@ -74,5 +75,7 @@ Ember is flexible and will be changes according to future needs.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
+Ember introduces URL's without "breaking the net". Some people make applications without introducing URL's which makes the application less valuable, since you can't share a spefic view state.
+
 
 ```
