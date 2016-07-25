@@ -35,7 +35,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is essentially a way to integrate highly flexible code into your program
+in order to hide or show certain parts of a site without actually making them
+entirely different files. It enhances ease of navigation and clarity of code.
 ```
 
 ### Ember Concepts
@@ -44,7 +46,11 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Ember is easily backwards compatible, which is great moving forward into
+Ember 2. An Ember 2 application has models, routes, templates that work like
+handlebars, components, and services. Some of the main differences between
+Ember 2 and Ember 1 are that Ember 2 adds hooks, is focused on stability, one
+way data flow, and a new rendering engine called Glimmer.
 ```
 
 ### Ember in Practice
@@ -52,7 +58,11 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember is a very comprehansive framework for creating SPA's, meaning the website
+itself relies on viewstates rather than hardcoded pages for navigation. Ember is
+flexible and has lots of other advantages over similar frameworks, depending on
+its specific intended use. In general though, Ember is good for developing an SPA that
+would benefit from view state incorporation.
 ```
 
 ### Ember and URLs
@@ -60,5 +70,9 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember's focus on stability means that updates are easy to incorportate, making
+for a more streamlined usage of the framework that requires minimal change on
+sites that use older versions while providing adequate support for the newer versions.
+Ember releases changes slowly over time so that they can be integrated in a more stable
+secure manner.
 ```
