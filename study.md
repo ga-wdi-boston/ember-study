@@ -35,7 +35,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state comprises which components are shown and which are hidden, or which
+exist in the DOM at any given time. If you think about a DOM as a finite state
+machines. Each of the states of the machine is a view state.
 ```
 
 ### Ember Concepts
@@ -52,7 +54,10 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+The two way data binding makes it so you have really good seperation of concerns
+across different features so you may want to use Ember has your application scales
+so you don't end up with insane jQuery situations. The code will be modular
+and very reusable since components are fairly abstract.
 ```
 
 ### Ember and URLs
@@ -60,5 +65,9 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+I think the point of using a web application is that you can use URLs which
+allow for things like forking your state, sharing, collaboration, and bookmarking.
+Ember uses URLs to track state so it doesn't ignore those advantages of web apps.
+Ignoring URLs is how people break the web. Also - it is nice that it has an MVC on the client
+side because it minimizes calls to the API which makes it break the web less.
 ```
