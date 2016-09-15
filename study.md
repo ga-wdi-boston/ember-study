@@ -35,7 +35,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+It contains specific properties in a controller, so each state can be maintained between two sessions. Each view state has its own route.
+
+View state is related to front end frameworks through routes that determine what is visible for the user.
 ```
 
 ### Ember Concepts
@@ -44,7 +46,13 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Ember 2 is simplier. First concept is the Ember object model that extend JavaScript objects to provide core framework functions. Other concepts are fundamental building blocks such as routing, model, services, and components.
+
+Some of the deperecated features are:
+- ArrayController and ObjectController (switched to generic Controller class);
+- Binding classes to properties is simpler;
+- Block params ({{#each people as |person| }} instead of {{#each person in people}})
+- etc.
 ```
 
 ### Ember in Practice
@@ -52,7 +60,7 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Because of its great features. Ember routes allows you to stop breaking the web. With Ember we get URL and back button by default with every route.
 ```
 
 ### Ember and URLs
@@ -60,5 +68,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember stops breaking the web by providing routes that connect each view state. URLs are essential in order for app to work. Routes point to a different view state with button that leads to the previous state without breaking the web application flow.
 ```
