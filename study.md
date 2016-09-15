@@ -69,4 +69,6 @@ In your own words, how does Ember "stop breaking the web"?
 
 ```md
 Ember stops breaking the web by providing routes that connect each view state. URLs are essential in order for app to work. Routes point to a different view state with button that leads to the previous state without breaking the web application flow.
+
+URLs lets us break MVSs into groups when we work with large scale applications. Ember lets us nest routes.
 ```
