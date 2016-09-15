@@ -35,7 +35,10 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+The view state is the current URL route that is being viewed by the user.  Front end
+frameworks keep track of what state the user is in and map via additional
+routing the states that the user is selecting. The multiple URLs are able to be
+viewed from one outputted screen.
 ```
 
 ### Ember Concepts
@@ -44,7 +47,10 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Ember 2 uses Routers to display URLs to users.  The Models store the data and display it to the user as requested by the router.  Templates called HTMLBars are used in a Handlebars style format to render DOM elements on the page.  Componenets are the custom individual HTML tags that are created by HTMLBars and they store data attributes and can communicate with their parent elements.  Services just hold a single object that stores minimal details on a longer-lived data.
+
+Ember 2 will update the page automatically after a developer saves their work while
+editing.
 ```
 
 ### Ember in Practice
@@ -52,7 +58,7 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember appears to be a faster way of rendering data and storing it on a page while minimizing communication with a back end.  This allows for faster responses to user requests for data, which is reflective of the current trend to push for client heavy processing.
 ```
 
 ### Ember and URLs
@@ -60,5 +66,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember stops "breaking the web" by allowing people to use MVC frameworks in their SPAs instead of rendering just a single URL page.  With a front end framework, a person can share the correct locations and fork pages to other people because the complete "view state" can be procurred.
 ```
