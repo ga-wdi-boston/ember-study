@@ -35,7 +35,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+View states are the "screens" that compromise an app. The different views
+that we would like users to be able to return to via a URL. Front-end frameworks
+allow us to manage these view states by profiding mechanisms to build this relationship
+between what is being shown on the screen and the data being retrieved to be shown,
+and make the process of showing that data repeatable via URL addresses.
 ```
 
 ### Ember Concepts
@@ -44,7 +48,16 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+The essential parts of an Ember 2 application are routes, models, templates,
+compenents and services.
+
+In Ember 2 several changes were made to the view layer including one way data
+flow by default, "just refresh it" when something changes, and standard lifecycle
+hooks for components.
+
+Ember 2 also introduced the Glimmer rendering engine which improves re-render
+performance by only updating parts of the DOM that have been updated, using a
+virtual tree.
 ```
 
 ### Ember in Practice
@@ -52,7 +65,11 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would use Ember if they want to create a single-page application
+with many views, which can be accessed by URLs. This allows the advantages
+of SPAs while also allowing links to be shared to specific views within the app.
+This would be key if, for instance, you were creating an image-upload site or a
+classifieds listing or any number of other apps.
 ```
 
 ### Ember and URLs
@@ -60,5 +77,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember "stops breaking the web" by allowing developers to manage views, and tie
+them into URLs to be easily bookmarkable, shareable, forkable and enable collaboration.
 ```
