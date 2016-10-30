@@ -35,7 +35,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+
+A view state is a combination of what appears on the client side at any given time: both DOM elements and data. Front end frameworks help manage these states.
+
+Resources: class notes/lecture
+
+
 ```
 
 ### Ember Concepts
@@ -44,7 +49,25 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+
+Core parts:
+
+- Router (maps URL to route)
+- Routes (load a template and a model/data)
+- Model (store data on a server or in Local Storage)
+- Template (displays data + desired DOM elements for a route)
+  - templates in Ember use Handlebars 
+- Components (template + behavior defined in a JS file)
+
+Changes in Ember 2 (not all of these were released in Ember 2.0; some may still be in the works):
+
+- Ember 2 removed old/deprecated features and code that had build up in Ember 1. 
+- Ember Data became a stable part of Ember.
+- Binding data with angle brackets instead of double curly braces. This is part of a "data down, actions up" approach that means templates don't by default update data (data binding is one-way, not two-way).
+- Ember 2 uses the Glimmer rendering engine, which rerenders only the parts of a template that have changed. This makes things faster.
+
+Resources: Ember docs, http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html, http://emberjs.com/blog/2015/08/13/ember-2-0-released.html
+
 ```
 
 ### Ember in Practice
@@ -52,7 +75,9 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+
+Using Ember lets you better organize your code and write a JavaScript app with client-side routing.
+
 ```
 
 ### Ember and URLs
@@ -60,5 +85,9 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+
+URLs are critical to the web—for sharing, for bookmarking, etc. JavaScript apps can exist entirely without URLs, and the single-page apps we've built in GA to date only use a single URL, meaning we can't share or link to any specific pieces of the app. Ember (and other front-end frameworks) let us use URLs, restoring this functionality. In particular, Ember uses nested routes to more clearly connect URLs to desired UI/view states.
+
+Resources: Tom Dale talk
+
 ```
