@@ -35,7 +35,8 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+a view state describes which elements are rendered and when.  A view state does not necessarily concern itself with how it transitions between other states.
+It often reflects a model or multiple models as they change.
 ```
 
 ### Ember Concepts
@@ -44,7 +45,7 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Components, routers, services, and models.  Also, the Ember object model which contains some/all of the aforementioned parts.
 ```
 
 ### Ember in Practice
@@ -52,7 +53,9 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember shines best in complex, large-scale applications which have heavily interacting pieces and places where components can be reused significantly.
+There is a lot of overhead to get it set up, but it makes large applications easy to manage and maintain over time as well as extend functionality,
+since it allows many key attributes of OOP to be implemented in JavaScript (before classes et cetera became a native part of JS).
 ```
 
 ### Ember and URLs
@@ -60,5 +63,8 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+This refers to Ember's routing, which allows you to keep track of your own state via URLs and transition to and from previous states easily.  
+This has other implications in that it allows your website to be more shareable since you can easily send semantic URLs to collaborators, friends, and
+other denizens of the internet.  Without such routing, you can lose information if you try to navigate away to a different page, and you cannot as easily
+describe to someone else how you got to the place you did on a website.
 ```
