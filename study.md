@@ -35,7 +35,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view-state refers to what elements are being rendered on the client at
+any given time. A front-end framework facilitates navigating between
+view states via routes.
 ```
 
 ### Ember Concepts
@@ -44,7 +46,24 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+
+Essential parts of an Ember 2 application:
+Routes: the state of the app as represented by a URL.
+Models: Routes have associated models that contain data associated with current
+state of app.
+Templates: build app's HTML and are written with HTMLBars(variation of Handlebars)
+Components: Custom HTML tags. Owns its data and can communicate with parent components via
+actions or events.
+Services: Singleton objects to hold long-live data (ex: user sessions)
+
+Changes:
+Ember 2 removes many unnecessary and depricated features.
+Uses angle brackets ("<") instead of {{}}
+One-way data flow by default(actions only sent to the server, data only sent to client)
+"Just refresh it" when something changes
+Lifecycle hooks: they let you run code at specific times during the component's "life"
+Glimmer rendering engine added for improving re-render performance
+
 ```
 
 ### Ember in Practice
@@ -52,7 +71,9 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Because it is a front-end framework that helps keep your code more organized. Its
+organization reminds me a bit of Ruby on Rails, and I can easily see these
+two frameworks going together (for front end and backend respectively) very well in a project.
 ```
 
 ### Ember and URLs
@@ -60,5 +81,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+It facilitates routing, using urls to navigate between view states instead
+of, for example, relying on jQuery to .hide() and .show(), which only
+changes the view state superficially.
 ```
