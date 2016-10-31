@@ -35,7 +35,14 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+The view state refers to information that is created or set by the user (whether it's certain tabs selected,
+completed forms, sorting of data) that can be maintained and referred back to at a later time. In other words,
+a user can close an application in any state that it is in, and then it can be reopened, either on the same
+device at a later time or on a new device and the old information would still appear/exist. It relates to front end frameworks because the information is not being stored in the back end - it is being stored by the use of
+routing in the front end.
+
+sources: https://www.npmjs.com/package/ember-view-state
+https://guides.emberjs.com/v2.4.0/controllers/
 ```
 
 ### Ember Concepts
@@ -44,7 +51,23 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Essential parts of Ember app:
+1) Object model
+2) Routing
+3) Models
+4) Services
+5) Components
+
+Changes between Ember 1 and Ember 2:
+The goal of the Ember 2 release was to make it simpler and to remove unnecessary
+items that previously existed (it is referred to as a "garbage collection release).
+Views have been removed in the latest version and have been replaced with components.
+Controllers have also begun to be eliminated. Using controllers requires an addon going
+forward. ReduceComputed and ArrayComputed have been removed. Ember.Helper is used instead
+of the legacy handlebars helpers.
+
+sources: http://emberjs.com/blog/2015/08/13/ember-2-0-released.html
+https://emberigniter.com/5-essential-ember-2.0-concepts/
 ```
 
 ### Ember in Practice
@@ -52,7 +75,13 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would likely use Ember in the case that they want to implement a fast and
+smooth user interface with less code. In order to make transitions between "views"
+go quickly and smoothly, it can require a lot of code to make the routing and other
+functionality interact. Ember can do some of the more complicated, code-heavy tasks
+for you instead.
+
+source: class notes
 ```
 
 ### Ember and URLs
@@ -60,5 +89,8 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember uses a concept called "stability without stagnation". Ember has used small,
+incremental upgrades and released them over time, which has allowed them to
+make changes without sacrificing compatibility with browsers or slowing things
+down on the internet. 
 ```
