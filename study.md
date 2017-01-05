@@ -35,7 +35,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+within ember, view state is based on the URL.
 ```
 
 ### Ember Concepts
@@ -52,7 +52,10 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Allows you to quickly get things up and running from the get-go.
+Over 2k add-ons.
+Easier to handle JSON objects (ahem...strings) than JQuery.
+
 ```
 
 ### Ember and URLs
@@ -60,5 +63,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+With JS apps, because so much is happening on the front-end, you don't need urls because everything is local. Utilizes URL paths to easily create JS objects.
+
+"hack"
 ```
