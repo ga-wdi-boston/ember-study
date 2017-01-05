@@ -35,7 +35,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is responsible for responding to user events (e.g., clicks, drags, and scrolls), as well as updating the contents of the DOM when the data underlying the view changes. Views and templates work together to create the front-end user interface.
+
+Ember's view hierarchy has the concept of child views, whereby Ember is responsible for re-rendering and inserting the child views, rather than the application code.
+
+Source: https://guides.emberjs.com/v1.10.0/understanding-ember/the-view-layer/
 ```
 
 ### Ember Concepts
@@ -44,7 +48,18 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Essential parts of an Ember appliction include:
+* Routes
+* Models
+* Templates
+* Components
+* Services
+
+The biggest changes in Ember 2 occured in the view state.
+* One-way data flow by default
+* "Just refresh it" when something changes
+* Standard lifecycle hooks for components
+* Introduction of the Glimmer rendering engine
 ```
 
 ### Ember in Practice
@@ -52,7 +67,11 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+One good reason to use Ember is that it makes it easy to integrate with large teams since the codebase for every project will look virtually the same for every Ember app, thus decreasing knowledge overhead to quickly make meaningful changes.
+
+Other reasons include the Router which allow us to have URLs and a working back button by default for our SPAs, as well as the tons of add-ons that are available such as Ember Data for persisting your state and liquid-fire for page animations.
+
+Source: https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/
 ```
 
 ### Ember and URLs
@@ -60,5 +79,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+'Breaking the web' refers to how web apps need to refer to URLs to to really qualify as web apps, otherwise you might as well we be building a native application.
 ```
