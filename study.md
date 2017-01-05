@@ -39,6 +39,7 @@ The confusing thing is that I'm finding mostly .NET references to "view state". 
 but I'm not fully grasping "view state" and front-end frameworks.
 
 ...within ember, view state is based on the URL.
+I'd say it's the current status of a system.
 
 ```
 
@@ -49,6 +50,9 @@ What changes have happened between Ember 1 and Ember 2?
 
 ```md
 Ember 2.0 only removes features that were deprecated as of Ember 1.13, so apps that run on Ember 1.13 without any deprecation warnings should run without issues on Ember 2.0.
+
+Ember 2 - router, model, component, service
+Views removed
 
 ->
 ```
