@@ -52,7 +52,17 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember is a client side MVC javascript framework and that uses convention over configuration.
+The decision of choosing what dependencies to be used has already been decided,
+there is no need to squabble for hours on what you need from scratch.
+Generating templates and models is easy with Ember CLI, like rails just type
+a simple command and files are made for you.  Ember also encourages testing it
+usually generates test files with templates and other files. What is most
+attractive to Ember is the ability to send less request to the server.  Pretty
+much cause it is client side MVC it tries to only send data to server and
+render what it needs to the client through components.
+
+
 ```
 
 ### Ember and URLs
