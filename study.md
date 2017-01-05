@@ -52,7 +52,23 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember is a JavaScript MVC framework with a very established and detailed
+documentation. Ember works similarily to rails in that it makes small
+choices in the background for you to make programming more seamless. Ember
+can detect made changes and will refresh the application automatically. Ember
+has handy built in methods including string manipulation using the methods w
+and fmt. More built in methods include map, reduced, and filter in order
+to effectively deal with arrays. The method mapProperty allows you to pass in
+a key of an object and return all values associated to that key. Ember allows
+data-binding by using the simple method set. Ember has excellect class
+modeling features which makes for much more readable code. Ember has many useful
+features including it's router and it's object system. The router provides
+URLs and a back button by default with every created route. Ember's object
+system take's the best parts of ruby object's and builds right on top of them.
+This allows Ember to use mixins. Ember also supports Computed properties
+which works as a more powerful Microsoft Excel. There are many
+reasons why one would choose to use Ember being all the available built-in
+features and the ease of use.
 ```
 
 ### Ember and URLs
