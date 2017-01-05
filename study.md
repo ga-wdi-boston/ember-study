@@ -52,7 +52,20 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember allows for the easy creation of single page web applications that have
+multiple states.  These states are like having multiple pages, but they are
+actually still part of a single page application that does not require a page
+refresh to be viewed.  This is accomplished using routes.  Ember uses urls to display different routes that the developer has created.  In our previous projects, much of the work in our apps were done by the server.  Ember places
+more responsibilities on the client-side browser, thereby reducing network
+requests and making the app feel faster.
+
+Similar to Rails, Ember can generate a lot of code, based on best practices.
+Advantages to this include easier comprehension of code, less bad code, faster
+onboarding for developers new to the code, less code typed and more time saved.
+Another huge advantage of Ember is backwards compatibility.  For people still
+using older versions of browsers and Internet Explorer, Ember compiles the code
+so that the developer will not have to worry about writing more code to ensure
+compatibility between browsers and versions.
 ```
 
 ### Ember and URLs
