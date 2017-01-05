@@ -52,7 +52,17 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember streamlines the creation of single-page apps by conventionalizing the
+development process according to industry best practices. This makes code easier
+to create, read, and edit. Similarly to Rails, Ember can quickly generate models,
+routes, controllers, serializers, and other high-level tools for creating SPAs.
+Handlebars is built-in, so using and presenting server data is relatively simple
+in an ember app as well.
+
+One nice note from the video Jeff linked ('Stop Breaking the Web') is that Ember
+fits nicely into the MVC architecture of web apps, because its URL-based SPA
+architecture (app-name/model/1[view]?sort=controller) mirrors the structure of
+MVC.
 ```
 
 ### Ember and URLs
