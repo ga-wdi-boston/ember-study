@@ -35,7 +35,15 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is what is rendered in the UI at any given time during a
+user's experience with an application. It is literally a view that is dependent on the
+state of the app. When something causes a change in app state, such as a
+button click or new content being pushed from the server, a well-designed app
+will respond to the change by transitioning to a different view state.
+
+Front-end frameworks help developers achieve this component of good app design
+by doing much of the work required to listen for changes in app state and
+trigger the appropriate state-dependent changes in the UI.
 ```
 
 ### Ember Concepts
@@ -44,7 +52,19 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+An Ember 2 application has five essential parts:
+-  Routing: links app state to the UI via URLs and their associated routes
+-  Models: where state lives, each route has a model
+-  Templates: how page's HTML gets built; Ember uses templating language called HTMLBars
+-  Services: objects that store data that needs to persist across routes (like tokens)
+-  Components: HTML tags with custom behavior (via JavaScript) and appearance (via templates)
+
+According the documentation, the primary goal of 2.0 was to streamline
+Ember and remove features that had become redundant or unecessary. Most of the
+changes since Ember 1.0 were accomplished in point releases before
+2.0. Improving support for web components was a big part of the run-up to 2.0.
+So was the one-way data-binding principle known as "data down, actions up". They
+have also worked to improve re-rendering performance.
 ```
 
 ### Ember in Practice
@@ -52,7 +72,13 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+A developer would use Ember to give their client-side application a lot of
+structure right out of the box, and to impose a lot of front-end best practices,
+standards, and conventions on their application with minimal effort. It allows a
+front-end developer to build a state-dependent UI in a proven, standardized way.
+Many front-end frameworks offer these things; Ember is also a great choice
+because of its ongoing commitment to backward compatibility while staying
+up-to-date with new development technology, such as web components and promises.
 ```
 
 ### Ember and URLs
@@ -60,5 +86,12 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember stops breaking the web by restoring a better sense of navigation to URLs.
+The first generation of single-page applications (SPAs) inhibited users'
+ability to share, collaborate on, and bookmark specific content by hiding a lot
+of different view states within a single URL. Ember, and other front-end
+frameworks that incorporate routing, supports the division of an SPA into
+semantically named view states that correspond to different URLs. This divides
+the content of an SPA into discretely named pieces that users can easily
+navigate, share and save.
 ```
