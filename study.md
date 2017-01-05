@@ -35,7 +35,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+I would appreciate some feedback on this, since I don't quite understand. But
+with the inclusion of the finite state machine wikipedia article in this study,
+it seems like a view state is something similar. That is, it's the representation
+of the state that the system is currently in. Something can trigger a transition
+to a new state, and it will no longer be in the state it was in previously.
 ```
 
 ### Ember Concepts
@@ -44,7 +48,10 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Essentials: routes, models, templates, components.
+Changes: Ember 2 is basically Ember 1, but removes features that were marked as
+deprecated since release 1.13. Ember 2 is essentially Ember 1.13+ without
+deprecated features.
 ```
 
 ### Ember in Practice
@@ -52,7 +59,12 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+The Ember development team claims to be forward thinking, integrating new web
+standards into their product. From the talk in the study, it seems like it might
+be easier for teams to work with Ember, since each component of a web page can
+be broken up into an MVC and MVCs can be nested. It's free. It integrates the
+concept of a router, bringing back application control through urls, unbreaking
+the web.
 ```
 
 ### Ember and URLs
@@ -60,5 +72,13 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+I don't know, but I can try to digest and summarize some of Tom Dale's comments from
+his CascadiaJS presentation. Ember stops breaking the web by relying on the use of
+urls again, since the web is predicated on the use of urls for resource sharing
+and mapping to documents/things. It's completely possible to make an application
+that is run in the browser which handles all operations, internally (?), and does
+not rely on urls to update the view or interact with models. This would mean that
+the end user is not able to navigate through the application using the forward
+or back buttons of a browser, nor could they navigate the application using the
+address bar.
 ```
