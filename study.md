@@ -35,7 +35,8 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+The front end framework toggles the state of the view presented to the user.
+
 ```
 
 ### Ember Concepts
@@ -44,7 +45,8 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Ember 2 promotes one-way data flow, refreshing when something changes, and the use
+of hooks for components.  A big change is the use of the Glimmer rendering engine.
 ```
 
 ### Ember in Practice
@@ -52,7 +54,9 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+The whole purpose of Ember is to provide a complete solution when it comes to a
+client side app.  It also is meant to be completely backward compatible so that
+past, even outdated, innovations are maintained (or supported).
 ```
 
 ### Ember and URLs
@@ -60,5 +64,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Since everything is happening on the client.  The app runs in the user's browser
+and is self contained, including everything it needs.  According to Tom Dale in the video we
+watched for the study - a web app contains URLS and can be forked and shared.
 ```
