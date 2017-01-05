@@ -35,7 +35,18 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is the current state of the model. It is what the user is
+seeing when they are in their client. So if we are looking at a book site, and
+looking at `/books`, our view-state will be all of the books. If we are looking
+at `/books/:id` our view-state will be a *single* book.
+
+Front-end frameworks represent how we as developers get the user to experience
+the view-state. As opposed to hardcoding something like
+```js
+$('.some-div').text(data)
+```
+In some crazy for-loop, frameworks allow us to process and show data more
+effeciently.
 ```
 
 ### Ember Concepts
@@ -44,7 +55,15 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Routes - or whatever the user sees, much like how we went to `/books` in Ruby
+when we were accessing our backend
+Models - this is where the route leads to and what data the user will see
+Templates - how the data is translated onto the DOM using HTMLBars
+Components - which is a custom HTML Tag that can be manipulated via JavaScript
+ Unsure of how this is different than any other tag
+Services - objects that hold data
+
+A big change with the resolver which appears to do something for you?
 ```
 
 ### Ember in Practice
@@ -52,7 +71,8 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+To build a CMS, or any of the apps we have made. Removes us from `.hide() .show()`
+hell.
 ```
 
 ### Ember and URLs
@@ -60,5 +80,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Less and more accurate URLs
+Sustainable and fast SPAs
 ```
