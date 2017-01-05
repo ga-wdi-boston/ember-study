@@ -35,7 +35,10 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+Router fires a function when a certain URL pattern is visited 
+
+Route - the state of an app
+
 ```
 
 ### Ember Concepts
@@ -44,7 +47,10 @@ What are the essential parts of an Ember 2 application?
 What changes have happened between Ember 1 and Ember 2?
 
 ```md
-<!-- your answer here -->
+Data flows down, actions pu
+Refresh on changes
+Glimmer for rendering
+
 ```
 
 ### Ember in Practice
@@ -52,7 +58,8 @@ What changes have happened between Ember 1 and Ember 2?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+New Ember apps all include the Ember stack;
+Cli automatically rebuilds when files are changed, provides a full testing framework, uses a standard file and directory structure. Data can load and save relationships without configuration of a restful API.Runs on promises, and setups won't load until promises run.
 ```
 
 ### Ember and URLs
@@ -60,5 +67,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+The importance and use URLs. By including routers, ember more easily allows for sharing, collaboration, forking, bookmarking.
 ```
