@@ -10,13 +10,11 @@ material. Instead, digest what you've read and repeat it in your own voice.
 
 ## Required Readings
 
--   The Overview and Sections 1-3 of the Wikipedia page on [Finite-State Machines](https://en.wikipedia.org/wiki/Finite-state_machine)
-    (just skim - don't get caught up on the details)
 -   The first section of [this blog post](http://pragmatic-backbone.com/routing-and-controllers) on
     Backbone's Router.
 -   The Overview and Sections 1-4 of the [Ember.js Wikipedia page](https://en.wikipedia.org/wiki/Ember.js)
 -   The [Ember CLI User Guide](http://ember-cli.com/user-guide/)
-    ("Getting Started" -> "Deployments")
+    (Just the "Getting Started" section)
 -   [Ember.js - Guides and Tutorials](https://guides.emberjs.com/v2.4.0/) (yes,
     read them all)
 
