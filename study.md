@@ -42,10 +42,12 @@ applies."
 ## Required Readings
 
 -   The Overview and Sections 1-4 of the [Ember.js Wikipedia page](https://en.wikipedia.org/wiki/Ember.js)
--   The [Ember CLI User Guide](http://ember-cli.com/user-guide/)
-    (Just the "Getting Started" section)
--   [Ember.js - Guides and Tutorials](https://guides.emberjs.com/v2.4.0/) (yes,
-    read them all)
+-   The [Ember CLI User Guide](http://ember-cli.com/user-guide/) (Just the
+"Getting Started" section)
+-   [Ember.js - Guide](https://guides.emberjs.com/v2.11.0/getting-started/core-concepts/) (Just the
+"Getting Started" section)
+-   [Ember.js - Tutorial](https://guides.emberjs.com/v2.11.0/tutorial/ember-cli/) (Just
+the `Creating Your App` section)
 
 ## Required Viewing
 
