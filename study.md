@@ -24,11 +24,11 @@ blog post](http://pragmatic-backbone.com/routing-and-controllers) on
 
 -   The Overview and Sections 1-4 of the [Ember.js Wikipedia page](https://en.wikipedia.org/wiki/Ember.js)
 -   The [Ember CLI User Guide](http://ember-cli.com/user-guide/) (Just the
-"Getting Started" section)
--   [Ember.js - Guide](https://guides.emberjs.com/v2.11.0/getting-started/core-concepts/) (Just the
-"Getting Started" section)
+[Getting Started](https://ember-cli.com/user-guide/#getting-started) section)
+-   [Ember.js - Guide](https://guides.emberjs.com/v2.11.0/getting-started/) (Just the
+[Getting Started](https://guides.emberjs.com/v2.11.0/getting-started/) section)
 -   [Ember.js - Tutorial](https://guides.emberjs.com/v2.11.0/tutorial/ember-cli/) (Just
-the `Creating Your App` section)
+the [Creating Your App](https://guides.emberjs.com/v2.11.0/tutorial/ember-cli/) section)
 
 ## Required Viewing
 
@@ -51,7 +51,6 @@ Explain, in your own words, what a "view state" is, and how it relates to
 ### Ember Concepts
 
 What are the essential parts of an Ember 2 application?
-What changes have happened between Ember 1 and Ember 2?
 
 ```md
 <!-- your answer here -->
