@@ -45,29 +45,41 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state encapsulates what should be shown to a user given the current state of the application. In the context of a front-end framework this would include any UI components and data associated with given state.
 ```
+https://www.youtube.com/watch?v=BQ6at0addi4
 
 ### Ember Concepts
 
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+An Ember application has:
+- A main index.html file which serves as an entry point for other markup
+- An app.js or index.js for loading other JS modules
+- Components
+- Templates
+- Models
+- Services
 ```
+https://guides.emberjs.com/v2.11.0/tutorial/ember-cli/
 
 ### Ember in Practice
 
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember can be used for building robust client applications that do not heavily rely on server-side routing and rendering. This can improve speed and usability from the user's perspective because network calls are minimized.
 ```
+https://www.youtube.com/watch?v=BQ6at0addi4
+https://en.wikipedia.org/wiki/Ember.js#Basic_concepts
 
 ### Ember and URLs
 
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember uses nested routing to all render multiple components/templates using a single URL. By defining a base route other sub components can be branched off and use more specific resources of that base. URLs define the state of an application.
 ```
+https://www.youtube.com/watch?v=BQ6at0addi4
+https://en.wikipedia.org/wiki/Ember.js#Basic_concepts
