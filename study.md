@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+<!-- A view state is a section of the web app I am accessing through a URL, for instance in a portfolio I can have about, resume, and contact sections and each can be its own state view when clicked. Front-end frameworks are helpful in the sense of the tools they provide to create screen states; for example backbone provides a tool to use a controller to create a function that is imported by the router.  -->
 ```
 
 ### Ember Concepts
@@ -53,7 +53,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+<!-- Ember inspector, a tool for debugging.
+Ember CLI
+Better syntax -->
 ```
 
 ### Ember in Practice
@@ -61,7 +63,7 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+<!-- Simple syntax, explicit workflow -->
 ```
 
 ### Ember and URLs
@@ -69,5 +71,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+<!-- With the use of url's that are generated from linking url with route object -->
 ```
