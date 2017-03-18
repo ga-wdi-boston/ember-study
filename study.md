@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state, as best I can understand/tell, is the computer's take on how to update the DOM as changes are made.
 ```
 
 ### Ember Concepts
@@ -53,7 +53,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+the ember-cli-build.js that tells ember how to actually put the app together
+the app folder, where the actual coe that runs the app is stored
+
 ```
 
 ### Ember in Practice
@@ -61,7 +63,10 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Honestly, I think a lot of this was cut out of the readings.  My understanding
+from what I just studied is that Ember makes the SPA model ring closer to the
+old URL patterns of websites (see below).  It's also fast to set up and uses
+familiar handlebar-style templates.
 ```
 
 ### Ember and URLs
@@ -69,5 +74,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember's route system allows for individual URLs within a web, which makes pages
+in the app much more easily accessed and shared.
 ```
