@@ -45,15 +45,16 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+<!-- View state is current representation of the values of data that the user sees when loading a page while the framework that data is loaded into stays the same. Front end frameworks allow for the structure of the actual framework and allow the developer to easily change that values of data without having to make a new page, or reload.  -->
 ```
+<!-- So really I think I am confusing this with a different type of model view state or something. For me reading through it this was to clearest explination I could grasp. If there is a clearer reading that you know of, that would be amazing. -->
 
 ### Ember Concepts
 
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+<!-- There are 5 essential parts of an ember app Routes, Models, Templates, Components, and Services. A route is the state of an application that is represented by a url which is controllers what the user sees. Every route has a model that is basically assigned to represent it, this provides the data that is to be displayed with application at the state the route is looking for. Templates are what is used to build the applications html and framework, HTMLBars which is another version of handlebars is used to build these templates. Components are used to implement behavior on an application, and its appearance is created using the templates referenced above. Finally services are just objects that hold data that will be carried over multiple sessions. -->
 ```
 
 ### Ember in Practice
@@ -61,13 +62,14 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+<!-- Ember is great for applying multiple views to an application that change depending on the user interaction. It allows for a set up of templated out views that encorporate changable data and display the data appropriatly depending on what the value has been changed to. It also allows for the user to return to the view they have set up because when they return and log in, the componants in the URL will tell the model what to load into the template.  -->
 ```
+<!-- I am not sure how accurate that is, or if I am even conveying my understanding correctly. However from what I read on the wiki and the examples they gave us on there, this is how I understood it. -->
 
 ### Ember and URLs
 
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+<!-- From what I took from the reading and the video, it stops breaking the web by applying components to URLs. What this does is allow for there to be a better way to sift through and apply nested views. It allows for multiple views to be displayed on top of each other, with different data values in each template being displayed. I don't know if that is at all accurate but that is how it broke down to me.  -->
 ```
