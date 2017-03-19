@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is just the state at which people see a page... It's what shows up
+on the browser, probably with Handlebars for Ember. It's what responds to user
+events.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+- Routes/URL -- important for letting us share data with other people as opposed to holding all the data locally
+- Models -- hold the data we need for the current view-state
+- Templates -- help separate concerns when building the HTML
+- Components -- custom HTML tag, connects JavaScript behavior to HTMLbars templates
+- Services -- keep track of user sessions
 ```
 
 ### Ember in Practice
@@ -61,7 +67,9 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+It seems more developer-friendly which is great because we just want to make things
+user-friendly, so everyone wins. It focuses more on fixing how we do views, and
+it's built to be flexible.
 ```
 
 ### Ember and URLs
@@ -69,5 +77,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+It has really good URL support, and it makes nested components easier to manage, and it's easier for other people to deal with because it follows convention. It basically breaks down complicated pages into smaller, separate concerns, so it makes navigation more user-friendly.
 ```
