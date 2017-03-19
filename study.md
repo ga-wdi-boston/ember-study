@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+As far as I understand it, a view state refers to the actual content being displayed on the screen, particularly when displaying information received from the server. It realtes to front end frameworks because the entire intent of these frameworks is to facilitate transitions between various view states. In the cases of some frameworks, such as Ember, these view states are naturally mapped to URLs allowing users to share or easily recreate a certain state of the page.
 ```
 
 ### Ember Concepts
@@ -53,7 +53,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+If I have understood correctly, the essential parts of an Ember 2 application are the Router, the Models, their respective Components, and Services which can serve a number of functions.
 ```
 
 ### Ember in Practice
@@ -61,7 +61,9 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+The most obvious reason is the anser to why someone would use any front end framework: it is much faster to stand up an app, and removes the need to write repetitive, standard jQuery for DOM manipulation.
+
+As to why someone might use Ember in particular, it handles mapping URLs to the MVC model very well, since it is built around that idea. It also has a number of strong opinions about web design, allowing it to implement those perhaps more effectively than the more flexible frameworks. Thus, if you agree with those opinions (or at least if they are applicable to the specific app) it might provide a more efficient solution to your problem.
 ```
 
 ### Ember and URLs
@@ -69,5 +71,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+The web is being "broken" by a shift away from URLs, a side effect of the popularity of single page application. While this is perhaps not as much of a concern in 2017, at the time of the video being referenced perhaps it was. In essence, Ember "stops breaking the web" by leveraging the fact that URLs map well to the MVC pattern to provide a framework that is perhaps inseparable from the URL. Thus the strengths of the web that derive from URLs, primarily sharing, opening things in new tabs with a preserved state, and collaboration, are not only preserved but arguably enhanced.
 ```
