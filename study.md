@@ -45,7 +45,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+My understanding of view state is that it is what is currently displayed on the page
+at any given moment. When we add features or buttons in development, we would like to
+see if they are displayed where we intended them to and work as we want. Every time we
+make a request to a server, the view state of our current page will likely change.
+In regard to front-end frameworks, they affect the architecture of how things are rendered,
+Controllers are dependent on the view in an MVC archtiecture. The clients controller code has many responsibilities.
 ```
 
 ### Ember Concepts
@@ -53,7 +58,13 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+1. The routes, which control what is visible to the user in the URL.
+2. Models, which are determined by the routes. They contain the data associated with the current state of the application.
+3. Templates build an applications' HTML with HTMLBars, which I will learn more about.
+4. Components - custom HTML tags, whose behavior is implemented with Javascript and HTMLBars define their appearance. Components "own" their data. They can be nested and communicate with their parents components.
+5. Services - single objects to hold long-lived data.
+
+
 ```
 
 ### Ember in Practice
@@ -61,7 +72,10 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Best practices are built into the Ember framework, so it is easy to reach out to the community that uses Ember, if any changes have been made that they should be awae of.
+My understanding is that Ember is also relatively easy to learn compared to other frameworks, so it allows for easier training and larger code bases for teams to work on.
+Ember already has the lastest ES6 and ES7 features built in, so there is no need for configuration.
+https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/
 ```
 
 ### Ember and URLs
@@ -69,5 +83,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+My understanding is that there are a variety of different web standards that sometimes conflict with each other and Ember attempts to solve this issue, by adapting and fitting those standards into its framework and by being involved in the committees that set these standards, so the risk of conflict is mitigated.
 ```
