@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state describes what to display at at a specific stage in an app.  For instance, the content at one state many be different than in a different stage.  These view states differ and a specific view state instructs which items to hide/show at a specific stage in the app.
 ```
 
 ### Ember Concepts
@@ -53,7 +53,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+The essential parts of ember are the routes, models, and templates.  For routes, the specific state of the app is indicated through the URL.  Models contains data which relates to a specific state of the app.  These all play an important role in the MVVM pattern.
 ```
 
 ### Ember in Practice
@@ -61,7 +61,7 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+A person would use ember if there are various view states of an application.  With other coding languages, content has to be hidden and displayed manually using a different language (e.g. jQuery).  By having a default view, languages like jQuery do not need to hide and show depending on the view state of the app.
 ```
 
 ### Ember and URLs
@@ -69,5 +69,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Stop breaking the web describes how ember is similar to a telephone.  Ember stops breaking the web because it is a more efficient method for asking a server/file by providing a "phone number like" directory.  This eliminates the need for inefficient ways to lookup data.  Other benefits for using URLs (versus no URLs) is that sharing, collaboratino, bookmarking and forking are possible.
 ```
