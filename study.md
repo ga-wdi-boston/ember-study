@@ -61,7 +61,7 @@ The essential parts of an Ember 2 application include the router which define
 routes that link to templates & views which are handlebars files that contain HTML
 that are loaded onto the browser. Next is the model which contains the underlying
 data the app renders to the user. The final essential part of an ember app is
-the component which are custom HTML tags where templates are rendered. 
+the component which are custom HTML tags where templates are rendered.
 ```
 
 ### Ember in Practice
@@ -69,10 +69,11 @@ the component which are custom HTML tags where templates are rendered.
 In your own words, describe why someone would use Ember.
 
 ```md
-It acts to guide the developer through the web building process. It accommodates
-contemporary and forward thinking javascript. Utilizes live refreshing so that
-when code changes are made during development manual page refreshes are no longer
-necessary.
+It acts to guide the developer through the web building process in addition to
+accommodating contemporary and forward thinking javascript. In addition, it utilizes
+live refreshing so that when code changes are made during development manual page
+refreshes are no longer necessary. It in essence acts in the developer's best
+interests to incorporate best practices into the development process.
 
 ```
 
@@ -82,5 +83,8 @@ In your own words, how does Ember "stop breaking the web"?
 
 ```md
 Ember stops breaking the web by creating an easy to use API that utilizes URLs
-via routers that also allows the user to use the back button.
+via routers that also allows the user to use the back button. I was unsure after
+watching the video about this question but it definitely has something to do with
+how Ember uses the router to render HTML to the user. Hoping this question
+becomes clearer as I explore ember this week in class.
 ```
