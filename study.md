@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+Since SPAs are stateless, 'view states' are used in front-end frameworks
+as creating them can allow users to save specific states of a web applications
+page.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Ember 2 is comprised of Routers/Route Handlers, Templates, Models, and Components.
 ```
 
 ### Ember in Practice
@@ -61,7 +63,13 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember, as a front-end framework, has a lot of competition. That said, it does
+have a variethy of features that set it apart from other front end frameworks.
+For one, like Rails, it seems to value conventional development over complexity.
+Simple commands, like 'ember new' can create entirely new web applications in
+seconds. EMber also comes with several built in tools for compiling and quick
+reload of information for even faster testing. Similarly, these features suggest
+that Ember is definitely a team-oritented framework.
 ```
 
 ### Ember and URLs
@@ -69,5 +77,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Javascript's focus does not really include URL(s) past the ONE url that a dev-
+-eloper's app is under entireley. Ember's 'router' concept creates new url's for
+every route you create, bringing focus back to URLs.
 ```
