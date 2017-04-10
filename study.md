@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+'View state' refers to the present condition of displayed data and UI elements for a given application.  Managing 'view state'
+is one of the principal goals of front end frameworks.  Generally speaking, front-end frameworks like ember are designed to 
+make it easy to keep the view state in sync with the state of data models.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Key Parts: Router, Route, Model, Component, Service
+
+One of the most significant changes between ember 1 and ember 2 is the introduction of the Glimmer 2 rendering engine, which, as I understand it, employs a rendering strategy similar to React in that it relies on virtual-dom-diffing to minimize the extent to which the application "touches" the DOM on any given state change.  Perhaps because of this shift in rendering strategy, ember is moving towards a one-way data flow model.
+
+Ember 2 also deprecates the {{controller}} helper and removes legacy handlebars helpers in favor of a helpers module on the main Ember object.
+
 ```
 
 ### Ember in Practice
@@ -61,7 +68,8 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember offers a comprehensive, opinionated, fully featured solution for front-end application management.  Moreover, it provides a helpful cli to ensure 
+adherence to best practices with respect to file structure, semantic naming, etc.
 ```
 
 ### Ember and URLs
@@ -69,5 +77,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember emphasizes the importance of URLs in complex javascript applications and especially SPAs.  Many front end frameworks treat URLs as an afterthought.
+Once the user navigated to the root URL for the application, the URL became inert, not reflecting the state of the data shown on the page.  Ember, conversely, uses the URL to reflect the state of the application and, accordingly, can be used to reproduce a given state.
+An ember application, therefore, creates semantically meaningful, shareable that, rather than simply reflecting the state of the application, actually move the application to that state.
 ```
