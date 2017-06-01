@@ -45,7 +45,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is the SPA alternative to the "page" in a traditional web
+application. The view state represents the specific properties of its components
+and those properties can be updated in the view without refreshing the page.
+View states in SPA frameworks like Ember can also have discrete URLs for the
+purposes of direct user navigation or bookmarking.
 ```
 
 ### Ember Concepts
@@ -53,7 +57,8 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+The essential parts of an Ember 2 application are routes, models, templates,
+components, and services.
 ```
 
 ### Ember in Practice
@@ -61,7 +66,12 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember would be used by someone developing a single page application (SPA) with
+a Model-View-ViewModel (MVVM) framework. Using Ember allows a developer to
+quickly create an application's structure. Additionally, Ember Data provides
+object-relational database (ORM) functionality as part of Ember's full stack.
+Ember's data binding capability allows view components update themselves when
+their data changes.
 ```
 
 ### Ember and URLs
@@ -69,5 +79,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember stops breaking the web by allowing its application view states to have
+their own URLs to allow for a consistent system of accessing web applications,
+even when the application is served from a single web page.
 ```
