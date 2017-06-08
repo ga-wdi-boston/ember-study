@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is the current state of the view at a given point in time. A front-end framework updates the view state based on user interaction.
 ```
 
 ### Ember Concepts
@@ -53,7 +53,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Essential parts of an Ember 2 application:
+1. Router - maps a URL to a route
+2. Route Handler - loads a template and respective model
+3. Template - loads components and accesses model data
+
+The Ember 2 release contained a lot of "garbage collection".  They seemed to do a good job of releasing periodic updates to make it easier for developers to update their code in small areas at a time.  So in Ember 2 they cleaned up a lot of the old code that was no longer supported.
 ```
 
 ### Ember in Practice
@@ -61,7 +66,9 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+It seems like Ember has a lot of defined best practices.  They have guides designed to help you get a new app setup and a lot of documentation surrounding naming conventions, etc.  They also have built in best practices that will warn you when you're not following them.  Some of it sounds a bit like Rails as well where it can save you from writing a lot of boilerplate code.
+
+Also as mentioned previously, it sounds like they put a lot of thought into how to upgrade Ember without causing developers to completely re-write their apps to make use of the new version (unlike Angular).
 ```
 
 ### Ember and URLs
@@ -69,5 +76,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+By providing URLs for each of it's routes. Any time a new URL is set (via page load, back button, etc.), the router maps the current URL to a route handler.
 ```
