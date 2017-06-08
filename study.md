@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+a view state could be thought of as a turnstile. there is a locked and a unlocked state.
+To me it reminds me of boolean values, like true or false, on or off. It could be if else,
+if this is true, do this. Else do this.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,8 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+routes -- models -- templates -- components -- services.
+ember 2 implements one way data flow, rerendering performance increase.
 ```
 
 ### Ember in Practice
@@ -61,7 +64,7 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+ember allows you to more quickly build apps rather than focusing on the structure that supports them. as new command generates structure for you, it is easier to get up and going quickly.
 ```
 
 ### Ember and URLs
@@ -69,5 +72,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember fixes the routes to be more modular. It can allow you to nest URL's within one another.
 ```
