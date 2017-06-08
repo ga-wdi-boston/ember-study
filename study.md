@@ -45,7 +45,10 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state comprises the layout of the page,
+including which components are shown and which are hidden, or which
+exist in the DOM at any given time. If you think about a DOM as a finite state
+machines. Each of the states of the machine is a view state.
 ```
 
 ### Ember Concepts
@@ -53,7 +56,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+An Ember 2 application has URLs which map through the router to view states.
+The view states are really route handlers which interact with a model and data in a store
+and then pass data to templates of mark-up. The templates often use reusable components.
+
+Everything in Ember 2 was added incrementally to Ember 1 before Ember 2 was released.
+Ember 2 is just about removing old stuff.
 ```
 
 ### Ember in Practice
@@ -61,7 +69,10 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+The two way data binding makes it so you have really good seperation of concerns
+across different features so you may want to use Ember has your application scales
+so you don't end up with insane jQuery situations. The code will be modular
+and very reusable since components are fairly abstract.
 ```
 
 ### Ember and URLs
@@ -69,5 +80,9 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+One advantage of using a web application is that you can use URLs which
+allow for things like forking your state, sharing, collaboration, and bookmarking.
+Ember uses URLs to track state so it doesn't ignore those advantages of web apps.
+Ignoring URLs is how people break the web. Also - it is nice that it has an MVC on the client
+side because it minimizes calls to the API which makes it break the web less.
 ```
