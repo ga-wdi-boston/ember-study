@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+The view state is a way of managing the information that is displayed in the
+DOM. This allows easy management of viewable components and can eliminate
+the need for duplication when showing elemants.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Some core components are the CLI, DATA, and Inspector. Key changes are the
+addition of functionality and improvements like glimmer but there was also
+the deprication for some functionality including support for IE8
 ```
 
 ### Ember in Practice
@@ -61,7 +65,8 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+If they're looking for a strong component and modular style framework
+based around symantic structure.
 ```
 
 ### Ember and URLs
@@ -69,5 +74,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+It allows you to have expected navigation and url functionality
 ```
