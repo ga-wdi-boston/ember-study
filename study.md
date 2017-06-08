@@ -45,7 +45,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+Modern day websites are SPA's(single page applications) which utilizes "view state"
+to guide a user through the client app/site. A SPA webpage has many states which can
+be changed depending on user interaction. Front-end frameworks help aid in the
+development of a rich and dynamic user experience.
+
 ```
 
 ### Ember Concepts
@@ -53,7 +57,13 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Routes - state represented in URL which corresponds to a route object that controls user view
+Models - every state has a model which contains all the data associated with the state
+Templates - used to build HTML with HTMLBars which is a version for handlebars
+Compenents - a custom HTML tag that is used to HTMLBars
+Services - objects that hold user session data
+
+Ember 2 got rid of old APIs and added glimmer
 ```
 
 ### Ember in Practice
@@ -61,7 +71,9 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Like the Rails framework, Ember provides a quick and easy way to create a front-end
+web application with minimal coding and provides a host of build in tools to aid
+the development process.
 ```
 
 ### Ember and URLs
@@ -69,5 +81,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember allows specific URLs which corresponds different view states in a web app
+instead of a static url.
 ```
