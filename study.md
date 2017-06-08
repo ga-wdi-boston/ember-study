@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is one of the possible ui states that a user might want to access
+within a web app. Within the MVC or MVVM models, view render data from a model into html or html template and then allow the browser to draw that data into the
+window. Users can then interact with rendered DOM elements, and user actions are translated into changes in the view state by the controller of a front-end framework.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Routers, models, templates, components and services. In Ember 2, components and services replace the functionality previously provided by views and controllers.
+
+Ember 2 made some changes in the way that the view works. By default data only flows down from the model, and the users only determine changes in the view by actions. Ember 2 also uses Glimmer to improve the speed at which a browser window renders in a way similar to React. Backbone seeks to speed up rendering by loading HTML and CSS while waiting for the rest of the JavaScript to resolve.
 ```
 
 ### Ember in Practice
@@ -61,7 +65,7 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember allows easy rendering of html elements that correspond to back-end entities, and has a natural congruity with the structure of urls.
 ```
 
 ### Ember and URLs
@@ -69,5 +73,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+In Yahuda Katz's talk, he made the comparison or urls to telephone numbers; their existence may be a historical accident, but their incredible utility ensured that they were used much longer than might be necessary for the technology. His main point is that we should be designing the web, specifically by using the functionality of urls, to take advantage of the structures that users gravitate towards, instead of imposing a top down structure that ignores their intuitive wishes.
 ```
