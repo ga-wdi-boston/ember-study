@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+I found https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/ to be a really helpful article in answering these questions.
+
+A view state is what elements of your app are visible to the user at any given time. front-end frameworks make it easier to manage view states and even let you pick specific URLs which will hold view states without having to completely rerender the app.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+The essential parts are routes, models, components and templates.
+
+In Ember 2 the auto-refreshing local server was added, ArrayController and ObjectController have been deprecated in favor of the generic Controller. Attribute and Class binding has been improved, and block params have been added for use in handlebar helpers.
 ```
 
 ### Ember in Practice
@@ -61,7 +65,9 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember, much like Rails, sets you up with best practices already in place which makes it easy for you to navigate the code, even as someone looking at it for the first time. This can also help prevent common coding mistakes like pluralization, capitalization, and misspelling.
+
+Ember also comes equipped with valuable tools like a powerful inspector and an auto-refreshing local server.
 ```
 
 ### Ember and URLs
@@ -69,5 +75,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember uses the back end idea of having a router, but for the front end. It doesn't refresh the page, but it changes the url depending on what view state you are in and it also keeps the back and forward buttons functional for going back to a previous view state. Instead of more conventional javascript apps where hitting back would take you to the entire previous web page you were visiting.
 ```
