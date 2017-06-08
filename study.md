@@ -45,7 +45,18 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+If a state describes the current status of the system, then a view state describes
+the status of the client at a particular instant in time. A view state has all the stored
+information at that given time in the UI. So as a user is navigating the application,
+going through different "screens" or "pages" he or she will be in different view states.
+But of course, it is up to the developer's discretion to decide which parts of the
+app will have its own view state.   
+
+A view state is also waiting on certain inputs that will trigger a transition to
+a different state in which case front end frameworks would have a role in executing
+the transition and rendering information or data that has been appropriated to such state.
+This is precisely where front end routing plays an important role in assembling and
+putting together the view states.
 ```
 
 ### Ember Concepts
@@ -53,7 +64,30 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Essential parts include:
+ - Routes
+ - Models
+ - Templates
+ - Components
+ - Services
+
+The first thing that happens when the user visits a URL is that the Ember router maps
+the URL to a route handler. The route handler then typically does two things:
+  - It renders a template.
+  - It loads a model that is then available to the template.
+
+Ember uses templates to organize the layout of HTML in an app.
+
+Models represent persistent state; in other words, information can continue to exist,
+typically in the web server or the browser's local storage.
+
+While templates describe how a user interface looks, components control how the
+user interface behaves. Components consist of two parts: a template written in
+Handlebars, and a source file written in JavaScript that defines the component's behavior.
+
+The addition of the Glimmer rendering engine was a major change, and that in itself
+brought in a whole load of new features such as one-way values by default for template
+bindings, fast re-render and new lifecycle hooks.
 ```
 
 ### Ember in Practice
@@ -61,7 +95,17 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Like Ruby on Rails, Ember preaches the idea of "convention over configuration". This
+makes it easier to get started on a project right away without worrying about so many
+choices since the choices made by the framework lines up with the collective best
+practices of the software community.
+
+Out of the box Ember has a number of different productivity-enhancers such as Babel.js,
+which is able to handle the most updated version of JavaScript and transcribe to
+browsers that are lagging behind, and Broccoli.js – an extremely efficient build system
+that is capable of compiling code quite quickly. Testing is also built in the Ember
+toolbox.
+
 ```
 
 ### Ember and URLs
@@ -69,5 +113,9 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember actually makes use of URLs and routing, which removes the idea of using the
+web simply as a distribution mechanism for a developer's native application, and
+promotes the use of a smarter client that encourages sharing and mirrors the MVC
+architecture to give a developer greater control in their front-end development process. 
+
 ```
