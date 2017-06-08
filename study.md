@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+The view state is what the user is currently viewing.  It's kind of crazy, but I believe that somehow, with ember we're going to be altering what our HTML is showing us without going to a new page or using jQuery to hide and show different elements.
 ```
 
 ### Ember Concepts
@@ -53,6 +53,29 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
+Routes
+
+
+Models
+
+
+Templates
+
+Components
+
+Services
+
+
+Some major changes include :
+
+One way data flow by default. (Referred to as "data down, actions up".)
+"Just refresh it" when something changes.
+Standard lifecycle hooks for components.
+
+introduction of Glimmer rendering engine
+
+via Wikipedia article: https://en.wikipedia.org/wiki/Ember.js
+
 <!-- your answer here -->
 ```
 
@@ -61,7 +84,14 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+allows user to have a working back button to go back in the SPA.  As a common internet user, i love me my back button.
+
+Additionally, it  :
+
+-integrates well with large teams
+
+https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/
+
 ```
 
 ### Ember and URLs
@@ -69,5 +99,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
-```
+Not sure, but it has something to do with creating new URL's dynamically in thew view state in ember verses going to new sub pages on the web. 
+
+  ```
