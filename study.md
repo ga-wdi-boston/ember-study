@@ -45,7 +45,7 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+View states are the different 'views' of what you have on your screen, when your screen changes, and you're on the SPA, the view state has changed. Frameworks like Ember.js help to manage what view states you have with the routes & Url's  that you have in each view state.
 ```
 
 ### Ember Concepts
@@ -53,7 +53,16 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+For Ember applications:
+- Routes
+- Services
+- Models
+- Templates
+- Components
+
+Some big changes between Ember and Ember 2:
+- Component properties were immutable by default, so the data flow was one-way as a default. Standard life-cycle hooks, which would help when a component's attribute changes.(<!-- NOTE ask about lifecycle methods.-->)
+
 ```
 
 ### Ember in Practice
@@ -61,7 +70,7 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would use ember if they enjoyed front-end work. Ember would help with facilitating the back button feature, and Ember has an object system that you can work on, instead of prototype based programming. Ember helps to develop scalable SPA's.
 ```
 
 ### Ember and URLs
@@ -69,5 +78,4 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
-```
+Ember 'stops breaking the web' because its router helped any SPA to be able to have one Url and add back button functionality. In this article: https://www.codeschool.com/blog/2015/10/26/7-reasons-to-use-ember-js/ I understood that Ember's API is very easy to use.```
