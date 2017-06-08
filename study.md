@@ -45,7 +45,11 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+Translate primitive browser events (e.g. click) to events with semantic
+meaning to the application. These semantic events are first sent up to the
+controller, or if no method is defined there, your application's router,
+which is responsible for reacting to the event based on the current state
+of the application.
 ```
 
 ### Ember Concepts
@@ -53,7 +57,10 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+The essentials part of Ember 2 applications are the Object Model, Routing,
+Models, Services, and Components.
+The goal of Ember 2 wasn't to add new features but reduce accumulated
+cruft aka built up garbage.
 ```
 
 ### Ember in Practice
@@ -61,7 +68,11 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Given that it's an opinionated framework, saves time in making
+architectural decisions for you. Additionally, helps with organizing
+code into moduals, setting up build tools, creating mock servers for testing,
+and sharing common functionality across the community. In a nutshell,
+saves time and let's you write cleaner, simpler code.
 ```
 
 ### Ember and URLs
@@ -69,5 +80,8 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Originally, the URL allowed the linking of specific pieces of content. However,
+this was broken by JavaScript applications by using a single URL which cause
+problems with the back button for example. Ember's Router let's you "stop breaking
+the web" as you get URLs with every route you create.
 ```
