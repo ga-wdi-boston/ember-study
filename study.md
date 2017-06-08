@@ -45,7 +45,13 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is what appears on the screen (what is rendered in the browswer)
+at a given time when a page is loaded. A view state is comprised of both DOM
+elements and data.
+
+Front-end frameworks manage different view states by organizing the relationships
+between them, and (for example) hiding or showing content based on events that a
+user initiates, like clicking a button, filling out a form, or scrolling.
 ```
 
 ### Ember Concepts
@@ -53,7 +59,22 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Essential Parts of an Ember 2 application are:
+ **Routes** - each of an app's view states has a specific URL controlled by
+ ember's routes.
+ **Models** - Like a back-end frame-work, each route is associated with its own
+ model, and in Ember the model contains data for each view state.
+ **Templates** - Templates are used to build the view-state's HTML and Ember uses
+ HTMLbars, a variation of handlebars, another templating engine.
+ **Components** - A custom HTML tag that 'owns' its own data.
+ **Services** -  Hold long-lived data, such as user-sessions.
+
+ The major changes from Ember 1 to Ember 2 are:
+ The biggest changes were made in the view layer, and included:
+  - default one-way data flow
+  - introduction of Glimmer, a rendering machine, that improves re-rending
+  performance (ie, "just refresh it" when something changes).
+  - standard lifecycle hooks for components (these execute whenver a component's attributes change).
 ```
 
 ### Ember in Practice
@@ -61,7 +82,8 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember is a good choice as a front-end framework for writing an application with code that is DRY (don't repeat yourself) because it allows one to fairly easily write an SPA with very little code repetition. Ember is also
+a good technology for providing stability while continuing to improve upon and develop new features (avoiding stagnation). Lastly, Ember provides lots of tools for working with frequently changing data.
 ```
 
 ### Ember and URLs
@@ -69,5 +91,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+URLs are crucial to the funcitonality of the Internet, by making things easily sharable. By utilizing URLs, which even the least technically-savvy end-users are familiar with, any view-state can be easily shared across browsers (and devices) with a simple copy-and-paste. Like other front-end frameworks, Ember allows us to retain the functionality of a particular view state by linking it with a specific URL, thus allowing us to share those view states with other users via the URLs, unlike the SPAs we've built so far in WDI.
 ```
