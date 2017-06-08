@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+State is persisted data. Routers in front-end frameworks use the changing of state
+to trigger other events.
+
 ```
 
 ### Ember Concepts
@@ -53,7 +55,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+The essential parts of Ember 2 include the "one way flow of data", automatic refreshing
+of data, "standard lifecycle hooks for components" and the glimmer render
+machine - similar to the virtual DOM used by React.
+
+The main difference between Ember 1 versions and 2.0 is the removal of depreciated
+changes.
 ```
 
 ### Ember in Practice
@@ -61,7 +68,9 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Someone would use ember if they want record state in their web apps to make
+changing the view state as a result of an event easier and they want to have different
+urls for each view state.
 ```
 
 ### Ember and URLs
@@ -69,5 +78,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+Ember's stops breaking the web because of its ability to record view state in a url
+and allow users to better collaborate, fork web apps, and bookmark views which
+can't be achieved with desktop apps.
 ```
