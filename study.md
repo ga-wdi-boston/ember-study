@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is what can be seen on the screen. It's important to be able to
+navigate to it in a variety of ways - clicking a link on a website, entering
+a URL manually, clicking the back button, etc.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Changes:
+Glimmer rendering engine, which makes it faster to show changes (similar to
+React).
+Most new functionality was added on 1.x branches, the switch to 2 deprecated
+some functionality.
+
 ```
 
 ### Ember in Practice
@@ -61,7 +68,8 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+It remains backwards compatible.
+Its stack allows you to quickly build scalable webapps.
 ```
 
 ### Ember and URLs
@@ -69,5 +77,6 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+It allows for URLs to be generated so a unique view state can be navigated to and web
+crawlers can ID every part of a site.
 ```
