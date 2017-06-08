@@ -45,7 +45,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+The confusing thing is that I'm finding mostly .NET references to "view state". You can install ember states using: ember install ember-states,
+but I'm not fully grasping "view state" and front-end frameworks.
+
+...within ember, view state is based on the URL.
+I'd say it's the current status of a system.
+
 ```
 
 ### Ember Concepts
@@ -53,7 +58,12 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+Ember 2.0 only removes features that were deprecated as of Ember 1.13, so apps that run on Ember 1.13 without any deprecation warnings should run without issues on Ember 2.0.
+
+Ember 2 - router, model, component, service
+Views removed
+
+->
 ```
 
 ### Ember in Practice
@@ -61,7 +71,10 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Allows you to quickly get things up and running from the get-go.
+Over 2k add-ons.
+Easier to handle "JSON objects"(ahem...strings) than JQuery.
+Can use Handlebars templates easily
 ```
 
 ### Ember and URLs
@@ -69,5 +82,7 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+With JS apps, because so much is happening on the front-end, you don't need urls because everything is local. Utilizes URL paths to easily create JS objects.
+
+"hack"
 ```
