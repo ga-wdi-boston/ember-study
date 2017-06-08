@@ -45,7 +45,9 @@ Explain, in your own words, what a "view state" is, and how it relates to
  front-end frameworks.
 
 ```md
-<!-- your answer here -->
+A view state is, in essence, a certain 'screen' of our app that the user
+sees on the client side. It's a combination of DOM elements and data.
+Front-end frameworks help manage these different view states in the app.
 ```
 
 ### Ember Concepts
@@ -53,7 +55,19 @@ Explain, in your own words, what a "view state" is, and how it relates to
 What are the essential parts of an Ember 2 application?
 
 ```md
-<!-- your answer here -->
+
+Core Parts of an Ember 2 application are:
+- **Routes** - each state of the app has a URL, each URL has a corresponding route that controls what is visible to the user
+- **Models** - Every route has an associated model, which contains the current state's data
+- **Templates** - Where we build the app's HTML, using HTMLBars
+- **Components** - A custom HTML tag that 'owns' its own data and can communicate with parent components through actions / events
+- **Services** - Objects that hold long-lived data like user-sessions
+
+Major differences between Ember 1 and Ember 2 include:
+
+- The addition of the Glimmer redinering engine that vastly improves re-render performance
+- One way data flow (data down, actions up)
+- Standard lifecycle hooks, which execute whenever a component's attributes change
 ```
 
 ### Ember in Practice
@@ -61,7 +75,7 @@ What are the essential parts of an Ember 2 application?
 In your own words, describe why someone would use Ember.
 
 ```md
-<!-- your answer here -->
+Ember provides the framework to 'quickly' (relatively) and easily write a fully functional front-end web app with minimal code repetition and it follows a similar structure to JavaScript or Rails servers, making it easier to keep our code organized. It also provides a lot of built in tools for working with constantly changing data.
 ```
 
 ### Ember and URLs
@@ -69,5 +83,5 @@ In your own words, describe why someone would use Ember.
 In your own words, how does Ember "stop breaking the web"?
 
 ```md
-<!-- your answer here -->
+The web has, traditionally, relied on URLs as a way to define and identify the path of the site we are on. Thus far in GA, all of our SPAs have only had one URL that remains static no matter which viewstate we are in. Ember, however, allows us to assign specific URLs to every view state in our app, allowing for greater specificity when linking and retaining the functionality of the URL path.
 ```
